@@ -1,3 +1,4 @@
+//无法通过。。。wa
 #include <stdio.h>
 #define maxlen 1000
 int judg(int N,int a[])
