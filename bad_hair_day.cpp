@@ -1,3 +1,4 @@
+//按题意正着算超时
 #include<stdio.h>
 #define maxN 80000
 int main()
