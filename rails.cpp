@@ -1,9 +1,9 @@
-//无法通过。。。wa
+//莫名其妙就通过了
 #include <stdio.h>
 #define maxlen 1000
 int judg(int N,int a[])
 {
-	int b[maxlen]={0},c[maxlen+1];
+	int b[maxlen+1]={0},c[maxlen+1];
 	int topa = N-1;
 	int topb = -1;
 	int topc = N;
