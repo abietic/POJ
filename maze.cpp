@@ -1,3 +1,4 @@
+//使用了BFS宽度优先算法（还是不太理解），好像还可以用DFS深度优先算法。看了别人的才写出来
 #include <cstdio>
 #include <queue>
 #define size 5
