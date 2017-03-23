@@ -1,4 +1,3 @@
-//wrong answer
 #include <stdio.h>
 #include <queue>
 struct Data
@@ -42,11 +41,16 @@ int cal()
 				count++;
 				if(b.is)
 				{
+				    while(!list.empty())
+                    {
+                        list.pop();
+                    }
 					return count;
 				}
 			}
 		}
 	}
+	return -1;
 }
 int main()
 {
