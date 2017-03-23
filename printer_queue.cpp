@@ -1,3 +1,4 @@
+//释放了结束时队列中未完成的元素就通过了= =;
 #include <stdio.h>
 #include <queue>
 struct Data
