@@ -56,7 +56,7 @@ int main()
 		cin >> from >> to;
 		head[from - 1][to - 1].power = 0;
 		head[from - 1][to - 1].donebefore = true;
-		head[to - 1][from - 1].power = 0;
+		head[to - 1][from - 1].power = 0;//忘记是无向边忘了写这两句 ， 懵逼了一阵。
 		head[to - 1][from - 1].donebefore = true;
 		//cout << head[from - 1][to - 1].power << endl;
 	}
